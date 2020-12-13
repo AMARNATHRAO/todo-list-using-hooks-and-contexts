@@ -23,6 +23,19 @@ body {
       text-decoration: line-through;
     }
 
+    .task-input::placeholder {
+      font-family: inherit;
+      padding-left: 25px;
+      font-weight: inherit;
+    }
+
+    .destroy {
+      font-size: 25px;
+      color: #000;
+      background: none;
+      border: none;
+    }
+
     form {
       width: 100%;
       display: flex;

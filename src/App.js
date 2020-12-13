@@ -8,7 +8,7 @@ import TaskList from "./TaskList";
 function App() {
   return (
     <div className="container">
-      <h1 className="title">Todo List</h1>
+      <h1 className="title">Amar's Todo List</h1>
       <NewTaskForm />
       <TaskList />
     </div>

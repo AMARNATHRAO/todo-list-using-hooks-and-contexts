@@ -18,7 +18,10 @@ export default function Task({ id, task, complete }) {
           <span className={complete ? "task-done" : ""}>{task}</span>
         </td>
         <td>
-          <button onClick={delTask}>Delete</button>
+          {/* <button onClick={delTask}>Delete</button> */}
+          <button type="button" className="close destroy" onClick={delTask}>
+            <span>×</span>
+          </button>
         </td>
       </tr>
     );
